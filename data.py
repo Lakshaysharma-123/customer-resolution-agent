@@ -6,6 +6,7 @@ CUSTOMERS = {
         "route": "Delhi → Goa",
         "status": "Cancelled"
     },
+
     "TR1190B": {
         "name": "Arvind Kulkarni",
         "tier": "Silver",
@@ -13,6 +14,7 @@ CUSTOMERS = {
         "route": "Mumbai → Bengaluru",
         "status": "Delayed4"
     },
+
     "WL7742": {
         "name": "Meher Kaur",
         "tier": "Platinum",
@@ -27,11 +29,13 @@ POLICIES = {
         "refund": True,
         "rebooking": True
     },
+
     "Delayed4": {
         "meal": True,
         "lounge": True,
         "hotel": False
     },
+
     "Delayed6": {
         "meal": True,
         "lounge": True,
